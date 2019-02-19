@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 body {
   font: 100% Helvetica, sans-serif;
   background-color: #fff;
@@ -52,20 +56,32 @@ nav {
     color: #fff; }
 
 .widgets {
-  margin-top: 400px;
+  margin-top: 300px;
+  height: 400px;
   background-color: #f4f6ef;
   margin-left: 10%;
-  margin-right: 10%; }
+  margin-right: 10%;
+  margin-bottom: 50px; }
+  .widgets hr {
+    margin-left: 20px; }
   .widgets h3 {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-left: 20px; }
   .widgets .widget {
-    width: 33.3%;
+    width: 30%;
     float: left;
     box-sizing: border-box;
-    background-color: #f4f6ef; }
+    margin-top: 20px;
+    margin-left: 20px; }
+    .widgets .widget h4 {
+      text-transform: uppercase; }
+    .widgets .widget p {
+      margin-top: 20px; }
 
 footer {
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
   footer p {
     text-align: center; }
 
