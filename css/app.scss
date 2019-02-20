@@ -5,8 +5,8 @@ $padding-initial-value:0;
 $nav-items-spacing:40px;
 $white-color:#fff;
 $grey-color:#333;
-$menu-right-margin:150px;
-$font : 100% Helvetica, sans-serif;
+$menu-right-margin:137px;
+$font : 100% Open-Sans;
 $image-width : 80%;
 $container-bg-color: rgb(244, 246, 239);
 $orange-color:rgb(233, 102, 60);
@@ -63,7 +63,7 @@ nav {
 }
 
 .about {
-    margin-left: 200px;
+    margin-left: 175px;
     float: left;
     width: 40%;
     h4 {
@@ -79,30 +79,28 @@ nav {
     background-color: $grey-color;
     float: right;
     width: 20%;
-    margin-right: 300px;
+    margin-right: 350px;
     h3 {
         text-transform: $capitalize;
         color: $white-color;
         text-align: left;
         margin: $m-20;
         line-height: 1em;
-        word-spacing: 2em;
+        
     }
     button {
         text-align: center;
         background-color:$orange-color;
         border-radius: 2px;
         color: $white-color; 
-        margin-left: $m-20;
+        margin-left: $m-30;
         border: none;
         height: 40px;
         margin-bottom: 10px;
         margin-top: 0;
         font-weight: bold;
         padding-left: $m-20;
-        padding-right: $m-20;
-
-        
+        padding-right: $m-20;  
     }
 }
 
