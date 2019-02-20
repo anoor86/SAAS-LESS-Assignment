@@ -6,10 +6,11 @@ body {
   font: 100% Helvetica, sans-serif;
   background-color: #fff;
   line-height: 1.6em;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 13px; }
 
 nav {
-  padding-right: 100px;
+  padding-right: 150px;
   padding-bottom: 50px;
   margin-top: 50px; }
   nav ul {
@@ -22,7 +23,7 @@ nav {
     padding-right: 40px; }
     nav li a {
       color: #333;
-      font-size: 18px; }
+      font-size: 13px; }
 
 .feature img {
   width: 80%;
@@ -35,6 +36,9 @@ nav {
   margin-left: 200px;
   float: left;
   width: 40%; }
+  .about h4 {
+    text-transform: uppercase;
+    margin-bottom: 20px; }
   .about a {
     color: #333; }
 
@@ -47,41 +51,52 @@ nav {
     text-transform: uppercase;
     color: #fff;
     text-align: left;
-    margin: 30px;
-    line-height: 1em; }
+    margin: 20px;
+    line-height: 1em;
+    word-spacing: 2px; }
   .call-to-action button {
     text-align: center;
     background-color: #e9663c;
     border-radius: 2px;
-    color: #fff; }
+    color: #fff;
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px; }
 
 .widgets {
-  margin-top: 300px;
-  height: 400px;
+  margin-top: 250px;
+  height: 300px;
   background-color: #f4f6ef;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 50px; }
+  margin-bottom: 20px;
+  padding-top: 5px; }
   .widgets hr {
-    margin-left: 20px; }
+    margin-left: 30px;
+    margin-right: 30px; }
   .widgets h3 {
     text-transform: uppercase;
-    margin-top: 300px;
-    margin-bottom: 20px;
-    margin-left: 20px; }
+    margin-top: 30px;
+    margin-left: 30px; }
   .widgets .widget {
     width: 30%;
     float: left;
     box-sizing: border-box;
-    margin-top: 20px;
-    margin-left: 20px; }
+    margin-top: 30px;
+    margin-left: 30px; }
     .widgets .widget h4 {
       text-transform: uppercase; }
     .widgets .widget p {
       margin-top: 20px; }
 
 footer {
-  margin-bottom: 100px; }
+  margin-bottom: 10px;
+  margin-top: 50px; }
   footer p {
     text-align: center; }
 

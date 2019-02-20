@@ -5,24 +5,26 @@ $padding-initial-value:0;
 $nav-items-spacing:40px;
 $white-color:#fff;
 $grey-color:#333;
-$menu-right-margin:100px;
+$menu-right-margin:150px;
 $font : 100% Helvetica, sans-serif;
 $image-width : 80%;
 $container-bg-color: rgb(244, 246, 239);
 $image-margin:10%;
 $capitalize:uppercase;
-$m-b20:20px;
-
+$m-20:20px;
+$m-30:30px;
 
 * {
     padding: 0;
     margin: 0;
 }
+
 body {
     font: $font;
     background-color:$white-color;
     line-height: 1.6em;
     font-weight: normal;
+    font-size: 13px;
   }
 
 nav {
@@ -41,7 +43,7 @@ nav {
 
         a {
             color: $grey-color;
-            font-size: 18px;
+            font-size: 13px;
         }
     }
 
@@ -62,6 +64,10 @@ nav {
     margin-left: 200px;
     float: left;
     width: 40%;
+    h4 {
+        text-transform: $capitalize;
+        margin-bottom: $m-20;
+    }
     a {
         color: $grey-color;
     }
@@ -76,54 +82,67 @@ nav {
         text-transform: $capitalize;
         color: $white-color;
         text-align: left;
-        margin: 30px;
+        margin: 20px;
         line-height: 1em;
+        word-spacing: 2px;
     }
     button {
         text-align: center;
         background-color:rgb(233, 102, 60);
         border-radius: 2px;
-        color: $white-color;   
+        color: $white-color; 
+        margin-left: $m-20;
+        border: none;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-weight: bold;
+        padding-left: $m-20;
+        padding-right: $m-20;
+
+        
     }
 }
 
 
 .widgets {
-    margin-top: 300px;
-    height: 400px;
+    margin-top: 250px;
+    height: 300px;
     background-color: $container-bg-color;
     margin-left: $image-margin;
     margin-right: $image-margin;
-    margin-bottom: 50px;
+    margin-bottom: $m-20;
+    padding-top: 5px;
     
     hr {
-        margin-left: $m-b20;
+        margin-left: $m-30;
+        margin-right: $m-30;
         
     }
     h3 {
         text-transform: $capitalize; 
-        margin-top: 300px;
-        margin-bottom: $m-b20;
-        margin-left: $m-b20;
+        margin-top:$m-30;
+        margin-left: $m-30;
     }
     .widget {
         width: 30%;
         float: left;
         box-sizing: border-box;
-        margin-top: $m-b20;
-        margin-left: $m-b20;
+        margin-top: $m-30;
+        margin-left: $m-30;
         h4 {
             text-transform: $capitalize;
         }
         p {
-            margin-top: $m-b20;
+            margin-top: $m-20;
         }
     }
     
 }
 
 footer {    
-    margin-bottom: 100px;
+    margin-bottom: 10px;
+    margin-top: 50px;
     p {
         text-align: center;
     }
