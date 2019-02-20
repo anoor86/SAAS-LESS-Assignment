@@ -9,10 +9,12 @@ $menu-right-margin:150px;
 $font : 100% Helvetica, sans-serif;
 $image-width : 80%;
 $container-bg-color: rgb(244, 246, 239);
+$orange-color:rgb(233, 102, 60);
 $image-margin:10%;
 $capitalize:uppercase;
 $m-20:20px;
 $m-30:30px;
+$h-300:300px;
 
 * {
     padding: 0;
@@ -82,13 +84,13 @@ nav {
         text-transform: $capitalize;
         color: $white-color;
         text-align: left;
-        margin: 20px;
+        margin: $m-20;
         line-height: 1em;
-        word-spacing: 2px;
+        word-spacing: 2em;
     }
     button {
         text-align: center;
-        background-color:rgb(233, 102, 60);
+        background-color:$orange-color;
         border-radius: 2px;
         color: $white-color; 
         margin-left: $m-20;
@@ -107,7 +109,7 @@ nav {
 
 .widgets {
     margin-top: 250px;
-    height: 300px;
+    height: $h-300;
     background-color: $container-bg-color;
     margin-left: $image-margin;
     margin-right: $image-margin;
