@@ -22,8 +22,7 @@ nav {
     display: inline;
     padding-right: 40px; }
     nav li a {
-      color: #333;
-      font-size: 13px; }
+      color: #333; }
 
 .feature img {
   width: 80%;
@@ -100,5 +99,33 @@ footer {
   margin-top: 50px; }
   footer p {
     text-align: center; }
+
+@media (max-width: 768px) {
+  nav {
+    width: 100%; }
+    nav ul li {
+      float: right;
+      text-align: center; }
+
+  .about {
+    float: none;
+    margin-left: 10%;
+    width: 80%; }
+
+  .call-to-action {
+    width: 80%;
+    margin-left: 10%;
+    float: none; }
+    .call-to-action h3 {
+      padding-top: 30px; }
+
+  .widgets {
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 20px; }
+    .widgets .widget {
+      width: 80%;
+      float: none;
+      display: block; } }
 
 /*# sourceMappingURL=app.css.map */

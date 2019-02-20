@@ -1,26 +1,13 @@
 
-$image-margins:10px;
-$margin-initial-value:0;
-$padding-initial-value:0;
-$nav-items-spacing:40px;
-$white-color:#fff;
-$grey-color:#333;
-$menu-right-margin:137px;
-$font : 100% Open-Sans;
-$image-width : 80%;
-$container-bg-color: rgb(244, 246, 239);
-$orange-color:rgb(233, 102, 60);
-$image-margin:10%;
-$capitalize:uppercase;
-$m-20:20px;
-$m-30:30px;
-$h-250:250px;
-$h-300:300px;
+
+@import 'global.scss';
 
 * {
     padding: 0;
     margin: 0;
 }
+
+
 
 body {
     font: $font;
@@ -46,7 +33,7 @@ nav {
 
         a {
             color: $grey-color;
-            font-size: 13px;
+            
         }
     }
 
@@ -55,7 +42,7 @@ nav {
 .feature {
     img {
         width: $image-width;
-        margin-bottom: 30px;
+        margin-bottom: $m-30;
         margin-left: $image-margin;
         margin-right: $image-margin;
         height: 460px;
@@ -72,7 +59,7 @@ nav {
         margin-bottom: $m-20;
     }
     p {
-        margin-top: 5px;
+        margin-top: $m-5;
         a {
             color: $grey-color; 
          }
@@ -115,14 +102,14 @@ nav {
     background-color: $container-bg-color;
     margin-left: $image-margin;
     margin-right: $image-margin;
-    margin-bottom: 5px;
-    padding-top: 5px;
+    margin-bottom: $m-5;
+    padding-top: $m-5;
     
     hr {
         margin-left: $m-30;
         margin-right: $m-30;
-        
     }
+
     h3 {
         text-transform: $capitalize; 
         margin-top:$m-30;
@@ -150,5 +137,43 @@ footer {
     p {
         text-align: center;
     }
+}
+
+@media (max-width:768px) {
+    nav {
+        width: 100%;
+         ul {
+            li {
+                float: right;
+                text-align: center;
+            }
+         }
+    }
+    .about {
+        float: none;
+        margin-left: $image-margin;
+        width: 80%;
+    }
+
+    .call-to-action {
+        width: 80%;
+        margin-left: $image-margin;
+        float: none;
+
+        h3 {
+            padding-top:$m-30;
+        }
+    }
+    .widgets {
+        height: auto;
+        margin-top: $m-20;
+        padding-bottom: $m-20;
+        .widget {
+            width: 80%;
+            float:none;
+            display: block;
+            
+        }
+   }
 }
 
